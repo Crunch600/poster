@@ -37,7 +37,7 @@ public class MovieManager {
         }
 
         String[] tmp = new String[length];
-        for (int i = 0; i < movies.length; i++) {
+        for (int i = 0; i < tmp.length; i++) {
             tmp[i] = movies[movies.length - 1 - i];
         }
         return tmp;
